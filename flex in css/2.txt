@@ -1,0 +1,35 @@
+JUSTIFY CONTENT-The justify-content property in CSS is used to align the items of a flexible container along the main axis (horizontally). It controls how space is distributed between and around these items when they do not use all available space. Here are some possible values for this property:
+
+flex-start: Items are positioned at the beginning of the container.
+flex-end: Items are positioned at the end of the container.
+center: Items are positioned in the center of the container.
+space-between: Items will have space between them.
+space-around: Items will have space before, between, and after them.
+space-evenly: Items will have equal space around them.
+
+
+ALIGN ITEMS-The `align-items` property in CSS is used to align the items of a flexible container along the cross axis (vertically). It controls how space is distributed between and around these items when they do not use all available space. Here are some possible values for this property:
+
+- `normal`: Behaves like 'stretch' for flexbox and grid items, or 'start' for grid items with a defined block size¹².
+- `stretch`: Items are stretched to fit the container¹².
+- `center`: Items are positioned at the center of the container¹².
+- `flex-start`: Items are positioned at the beginning of the container¹².
+- `flex-end`: Items are positioned at the end of the container¹².
+- `start`: Items are positioned at the beginning of their individual grid cells, in the block direction¹².
+- `end`: Items are positioned at the end of their individual grid cells, in the block direction¹².
+- `baseline`: Items are positioned at the baseline of the container¹².
+
+GAP-The gap property in CSS is used to define the size of the gap between the rows and between the columns in flexbox, grid, or multi-column layout. It is a shorthand for the row-gap and column-gap properties
+
+FLEX DIRECTION-The flex-direction property in CSS specifies the direction of the flexible items inside a flex container. It defines the main axis and the direction (normal or reversed). Here are the possible values for this property:
+
+row: The flex container’s main-axis is defined to be the same as the text direction. The flexible items are displayed horizontally, as a row.
+row-reverse: Behaves the same as row but the main-start and main-end points are opposite to the content direction.
+column: The flex container’s main-axis is the same as the block-axis. The flexible items are displayed vertically, as a column.
+column-reverse: Behaves the same as column but the main-start and main-end are opposite to the content direction.
+
+FLEX WRAP-The flex-wrap property in CSS specifies whether the flexible items should wrap or not. If wrapping is allowed, it sets the direction that lines are stacked. Here are the possible values for this property:
+
+nowrap: The flex items are laid out in a single line which may cause the flex container to overflow. This is the default value.
+wrap: The flex items break into multiple lines.
+wrap-reverse: Behaves the same as wrap but cross-start and cross-end are permuted.
